@@ -42,6 +42,7 @@ function App() {
       <header>
         <img src="/logo.png" className="logo-header" />
       </header>
+      {/*TODO componentizar esse cara*/}
       <main>
         <img src={img} className="img-main" />
         <button onClick={fetchJoke} className="fetch-btn">
